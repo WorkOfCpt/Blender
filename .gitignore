@@ -1,0 +1,32 @@
+# =========================
+# Blender Files
+# =========================
+# 블렌더 자동 백업 파일 및 복구 파일 무시
+*.blend1
+*.blend2
+*.blend@
+*.blendn
+quit.blend
+crash.blend
+*.crash.txt
+
+# =========================
+# Render Output & Caches (선택 사항)
+# =========================
+# 렌더링된 이미지나 비디오, 캐시 폴더를 무시하려면 아래 주석(#)을 해제하세요.
+# /render/
+# /cache/
+# *.mp4
+# *.avi
+
+# =========================
+# OS Generated Files
+# =========================
+# Windows 및 Mac 시스템 파일 무시
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
